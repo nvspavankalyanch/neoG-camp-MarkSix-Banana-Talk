@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Talk - A Minion Translator</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images\Minions.png" />
+    <title>Banana Talk</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <h1> Banana Talk </h1>
+    <nav>
+        <h1>Banana Talk</h1>
+    </nav>
+
+    <div class="main">
+        <textarea id="txt-input" placeholder="Enter your English Sentence here"></textarea>
+
+        <button class="btn-translate">Translate to Banana</button>
+        <div class="output-text">Translation will come here 👇</div>
+        <div class="output"></div>
+    </div>
+
+    <footer>
+        <div>ABOUT</div>
+        <p>
+            Do you like minions?
+             I have heard that the gibberish they speak is actually a real language. 
+             Use this translator to translate the text from English to Minion language or Banana language.
+        </p>
+        <p>
+            Made with ❤️ by
+            <a class="link-footer" href="https://nvspavankalyanch.netlify.app/" target="_blank">N V S Pavan Kalyan
+                Chaluwadi</a>
+        </p>
+        <div class="footer-image">
+            <img src="Images\Minions.png" alt="minions footer" />
+               
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
